@@ -1,0 +1,470 @@
+/* Styles for mobile devices */
+
+.sidebar-mobile {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 10px;
+  z-index: 1000; /* Ensure the sidebar is on top of other content */
+}
+
+.side-bar-items-mobile {
+   font-family:Kumbh Sans;
+   font-weight:700;
+   color:hsl(0, 0%, 0%);
+   font-size:16px;
+   padding: 8px 8px 8px 30px;
+   display: block;
+}
+
+.close-icon-mobile {
+  margin-left:35px;
+}
+
+.sneakers-title-mobile {
+  font-family: Kumbh Sans;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.cart-icon-mobile {
+  margin-right: -40px;
+}
+
+.avatar-mobile {
+  height: 50px;
+}
+
+.previous-icon-mobile {
+   background-color:white;   
+   border-radius:200px;   
+   margin:5px;  
+   padding:10px;
+}
+
+.next-icon-mobile {
+   background-color:white;   
+   border-radius:200px;       
+   margin:5px;  
+   padding:10px;
+}
+
+.sneaker-company-mobile {
+  color: hsl(26, 100%, 55%);
+  font-size: 16px;
+  font-weight: 700;
+  margin-top:10px;
+}
+
+.contents-mobile {
+  margin: 10px;
+}
+
+.fall-limited-edition-sneakers-mobile {
+  color: hsl(0, 0%, 0%);
+  font-size: 30px;
+  font-family: Kumbh Sans;
+  font-weight: 700;
+}
+
+.description-mobile {
+  color: hsl(219, 9%, 45%);
+  font-family: Kumbh Sans;
+  font-size:20px;
+}
+
+.price-mobile {
+  color: hsl(0, 0%, 0%);
+  font-size: 30px;
+  font-family: Kumbh Sans;
+  font-weight: 700;
+}
+
+.discount-mobile {
+  background-color: hsl(25, 100%, 94%);
+  color: hsl(26, 100%, 55%);
+  font-weight: 700;
+  padding: 6px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.price-strike-mobile {
+  color: hsl(220, 14%, 75%);
+  font-size: 30px;
+  font-family: Kumbh Sans;
+  font-weight: 700;
+  text-decoration: line-through;
+  margin-left: 120px;
+}
+
+.number-increase-and-decrease-mobile {
+  background-color: hsl(223, 64%, 98%);
+  width: 420px;
+  border-radius: 10px;  
+  text-align: center; 
+  height:50px;
+  padding:5px;
+}
+
+.plus-symbol-mobile {
+   margin-left:-260px;
+}
+
+.minus-symbol-mobile {
+   margin-right:-260px;
+}
+
+.number-mobile {
+  color: hsl(0, 0%, 0%);
+  font-size: 20px;
+  font-family: Kumbh Sans;
+  font-weight: 700;
+  
+}
+
+.add-to-cart-button-mobile {     
+   padding: 10px 20px;
+   background-color: hsl(26, 100%, 55%);
+   color:white;
+   border:none;
+   border-radius:10px;
+   width:400px;   
+   text-align: center;
+   margin:10px;
+}
+
+.add-to-cart-mobile {
+  color: hsl(0, 0%, 100%);
+  font-family: Kumbh Sans;
+  margin: 5px;
+}
+
+.cart-card-mobile {
+  display: none;
+  position: absolute;
+  top: 120px; 
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;  
+  z-index: 1000;  
+  height:250px;
+  width:400px;  
+  margin:5px;
+  border-radius:10px;
+  
+}
+
+.cart-title-mobile {
+  color: hsl(0, 0%, 0%);
+  font-family: Kumbh Sans;
+  font-weight: 700;
+  margin-left:20px;
+  margin-top:10px;
+}
+
+.cart-is-empty-mobile {
+   text-align:center;
+   margin-top:55px;
+}
+
+.delete-item-mobile {
+  margin: 10px;
+  margin-left: 30px;
+}
+
+.cart-item-image-mobile {
+  height: 100px;
+  margin-left:10px;
+}
+
+.delete-icon-mobile {  
+  height: 20px;
+  margin-left:10px;
+}
+
+.cart-item-title-mobile {
+   margin-left:20px;
+   margin-bottom:0;
+   line-height:1;
+   color:hsl(219, 9%, 45%);
+   text-align:center;
+   margin-top:-40px;
+}
+
+.checkout-button-mobile {
+  background-color: hsl(26, 100%, 55%);
+  text-align: center;
+  border-radius: 10px;
+  height: 40px;
+  width:300px;
+  border-width: 0px;
+  color:hsl(0, 0%, 100%);
+  font-family:kumbh sans;
+  font-weight:400; 
+  margin-top:20px; 
+  margin-left:10px;
+  margin-right:40px;
+}
+
+.checkout-mobile {
+   text-align:center; 
+   margin-left:50px;
+   
+}
+
+.price {
+  text-align:center;
+  
+}
+
+.price-mobile-cart {
+   color: hsl(0, 0%, 0%);
+   font-size: 20px;
+   font-family: Kumbh Sans;
+   font-weight: 700;
+   text-align:center;
+   margin-top:0;
+   line-height:1;
+}
+
+.total-price {
+   color: hsl(0, 0%, 0%);
+   font-size: 20px;
+   font-family: Kumbh Sans;
+   font-weight: 700;
+}
+
+
+
+/* Styles for medium devices */
+
+.sneakers-title-desktop {
+  font-family: Kumbh Sans;
+  font-weight: 700;
+  font-size: 40px;
+  margin-right: 40px;
+}
+
+
+.collections {
+    position: relative; 
+    text-decoration: none; 
+    color: #000; 
+    transition: color 0.3s; 
+    
+
+}
+
+.collections::after {
+    content: ''; 
+    position: absolute; 
+    left: 0;                    
+    bottom: 0;                  
+    width: 100%;                
+    height: 2px;                 
+    background-color: hsl(26, 100%, 55%); 
+    transform: scaleX(0); 
+    transform-origin: center; 
+    transition: transform 0.3s; 
+    
+}
+
+.collections:hover {
+    color: #00f; 
+    font-weight:700;
+}
+
+.collections:hover::after {
+    transform: scaleX(1); 
+}
+
+.collections-hover:hover {
+   width: 100%; 
+  height: 1px; 
+  background-color: hsl(26, 100%, 55%);  
+}
+
+.shopping-cart-desktop {
+  margin-right: 20px;
+}
+
+.avatar-desktop {
+  height: 50px;
+}
+
+.avatar-desktop-hover:hover {  
+  border-style: solid;
+  border-color: hsl(26, 100%, 55%);
+  border-radius:30px;
+}
+
+.sneaker-company-desktop {
+  color: hsl(26, 100%, 55%);
+  font-size: 16px;
+  font-weight: 700;
+  margin-top:10px;
+}
+
+.fall-limited-edition-sneakers-desktop {
+  color: hsl(0, 0%, 0%);
+  font-size: 40px;
+  font-family: Kumbh Sans;
+  font-weight: 700;
+}
+
+.description-desktop {
+  color: hsl(219, 9%, 45%);
+  font-family: Kumbh Sans;
+  font-size:20px;
+}
+
+.price-strike-desktop {
+  color: hsl(220, 14%, 75%);
+  font-size: 20px;
+  font-family: Kumbh Sans;
+  font-weight: 700;
+  text-decoration: line-through;
+}
+
+.number-increase-and-decrease-desktop {
+  background-color: hsl(223, 64%, 98%);
+  border-radius: 10px;  
+}
+
+.minus-symbol-desktop {
+  color: hsl(26, 100%, 55%);  
+  font-weight: 700;
+}
+
+.number-desktop {
+  color: hsl(0, 0%, 0%);
+  font-family: Kumbh Sans;
+  font-weight: 700;
+}
+
+.plus-symbol-desktop {
+  color: hsl(26, 100%, 55%);
+  font-weight: 700;  
+}
+
+.add-to-cart-button-desktop {
+  background-color: hsl(26, 100%, 55%);
+  text-align: center;
+  border-radius: 10px;
+  height: 40px;
+  border-width: 0px;
+  margin-left: 20px;
+}
+
+.add-to-cart-desktop {
+  color: hsl(0, 0%, 100%);
+  font-family: Kumbh Sans;
+}
+
+.carousal-image {
+  height: 400px;
+}
+
+.carousal-previous {
+   background-color:white;
+   height:60px;
+   width:80px;
+   border-radius:100px;
+   padding-right:5px;
+   padding-top:12px; 
+   margin:5px;  
+}
+
+.carousal-next {
+   background-color:white;
+   height:60px;
+   width:80px;
+   border-radius:100px;   
+   padding-top:12px; 
+   margin:5px;  
+}
+
+.image-1 {
+  height: 400px;
+  border-radius: 10px;
+}
+
+.small-image-one {
+  margin: 10px;
+  border-radius: 10px;
+  height: 100px;
+}
+
+.small-image-one:hover {
+  opacity: 0.5;
+  border-style: solid;
+  border-color: hsl(26, 100%, 55%);
+}
+
+/* cart styles */
+
+.cart-card-desktop {
+  display: none;
+  position: absolute;
+  top: 70px; 
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;  
+  z-index: 1000;  
+  height:200px;
+  width:400px;  
+  margin:5px;
+}
+
+.cart-title-desktop {
+  color: hsl(0, 0%, 0%);
+  font-family: Kumbh Sans;
+  font-weight: 700;
+  margin-left:10px;
+  margin-top:10px;
+}
+
+.cart-is-empty-desktop {
+   text-align:center;
+   margin-top:55px;
+}
+
+.delete-item-desktop {
+  margin: 10px;
+  margin-left: 30px;
+}
+
+.cart-item-image-desktop {
+  height: 100px;
+  margin-left:10px;
+}
+
+.delete-icon-desktop {  
+  height: 20px;
+  margin-left:10px;
+}
+
+.cart-item-title-desktop {
+   margin-left:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
